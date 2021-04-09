@@ -1,8 +1,8 @@
 # ArmA-Scripts
-Old/broken missions from 2015-2016 for referencing
+Old/broken missions from 2013-2016 for referencing
 
 Dependencies may include:
- - ACE
+ - ACE/AGM
  - ALIVE
  - ACRE2 or TFAR
  - RHS
