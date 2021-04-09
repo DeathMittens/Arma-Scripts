@@ -1,0 +1,34 @@
+To do list
+
+	Test on server with players:
+		- vehicle lock status at base
+		- ACRE respawn & spectate functionality check w/ zeus respawn module
+		- Rescue recon squad to base objective and vehicle lock trigger
+	
+	- Addition: lock DAC spawned armour vehicles with event config
+	
+	- Clean up ACE settings / review what may be server side forced
+		- Currently server forced at time of writing:
+			Fatigue
+			Hearing
+			ACE Map - illumination
+			ACE Medical
+			Ace Name Tags
+			Ace Night Vision
+			DUI - Squad Radar - Indicators - Show indicators forced off
+			
+		- Current mission forced / changed:
+			- Basic medical - changed back to server side settings
+			- ACE Fatigure with very forgiving settings & fast stamina regen
+			- Disabled ACE hearing
+			- ACE vehicle lock CHANGED to 'AS IS' due to interfering with the mission
+			- ACRE 2 terrain loss coefficient changed to 0.5
+
+	- no reslot for respawn allowed due to framework. Implemented A Zeus force respawn module for now, 
+ 
+ 
+	- Fast roping enabled on the transport helicopter... could be a mistake?
+	
+	
+	
+	
