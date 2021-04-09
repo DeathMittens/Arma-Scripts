@@ -1,0 +1,31 @@
+(2) Commander
+Company-HQ
+
+(2) 1st PL lead
+Alpha-Actual
+
+(2) 2nd PL lead
+Bravo-Actual
+
+(9) 1st PL Alpha
+Alpha-1
+(9) 1st PL Bravo
+Alpha-2
+(9) 1st PL Charlie
+Alpha-3
+
+(9) 2nd PL Alpha
+Bravo-1
+(9) 2nd PL Bravo
+Bravo-2
+(9) 2nd PL Charlie
+Bravo-3
+
+(1) AV8B Pilot
+Harrier-1
+
+(2)Transport Pilots
+Seahawk-1
+
+(2)Transport Pilots
+Seahawk-2

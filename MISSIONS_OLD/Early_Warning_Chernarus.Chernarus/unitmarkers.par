@@ -1,0 +1,35 @@
+hint "Adding";
+
+listUnit = allUnits;
+j = count listunit;
+i = 0;
+posMark = true;
+
+while {posMark} do
+{ 
+listunit = allUnits;
+j = count listunit;
+i = 0;
+	
+	for "i" from 0 to j do
+	{
+		unit = listunit select i;
+		pos = position unit;
+		deleteMarkerLocal ("playerMarker"+ (str i));
+		marker = "playerMarker" + (str i);
+		marker = createMarkerLocal [marker,pos];
+		marker setMarkerTypeLocal "mil_dot";
+		marker setMarkerPosLocal (pos);
+		if (unit == player) then
+		{
+			marker setMarkerColorLocal("ColorYellow");
+		}
+		else
+		{
+			marker setMarkerColorLocal("ColorRed");
+		};
+		marker setMarkerTextLocal format ["%1",name unit];
+	};
+	sleep 0.5;
+};
+hint "Stop";
