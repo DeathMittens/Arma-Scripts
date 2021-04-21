@@ -1,0 +1,14 @@
+To Do List / Notes:
+
+
+To Do:
+	- Look into better method for openning gates (locality delay)
+	- Implement Bomb Sites
+		- Scripted Implementation - Action menu on object or area?
+	- Implement Alive Players counter
+		- Easy implementation: Add to hint format
+		- Ideal harder implementation - On screen overlay
+
+Done:
+	- Change to CUP/Vanilla armour
+	- On Unconcious player death
