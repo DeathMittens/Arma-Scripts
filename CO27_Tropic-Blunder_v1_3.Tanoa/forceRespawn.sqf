@@ -5,6 +5,7 @@
 //null = execVM "forceRespawn.sqf";
 
 private _pos = getMarkerPos "respawn_west";
+
 if ([_pos select 0, _pos select 1] isEqualTo [0, 0]) exitWith {};
 
 private _plrs = [] call FP_JRM_fnc_getSpectators;

@@ -1,2 +1,12 @@
 To Do List:
 	- Mission Testing
+	
+	
+Disable LAMBS DANGER on units which should not go prone (in tower and officers)
+
+Enable register LAMBS artillery on mortar objective
+
+check ACE stamina is disabled
+disable AI Medical???
+
+ACE artillery - arty computer disabled

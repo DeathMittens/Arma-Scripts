@@ -8,7 +8,7 @@ player createDiaryRecord ["Diary", ["ACE Medical Settings", "
  <br/>
  Other Mission Settings:<br/>
  - Disabled ACE Hearing<br/>
- - ACE Fatigure disabled.<br/>
+ - ACE Fatigue disabled.<br/>
  - ACRE2 Terrain loss coefficient reduced<br/>
  
  <br/>

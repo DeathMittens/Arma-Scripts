@@ -56,6 +56,8 @@ else
 	_unit addWeapon "rhs_weap_m4a1_carryhandle_grip3";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
 	
+	_unit addWeapon "ACE_Vector";
+	
 	_unit addWeapon "rhs_weap_M136";
 
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt

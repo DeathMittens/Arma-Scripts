@@ -43,7 +43,7 @@ if (groupID (group _unit) == "Charlie" || groupID (group _unit) == "Delta") then
 
 	// Backpack
 	_unit addBackpack "rhsusf_falconii_coy";
-	_unit addItemToBackpack "ACE_Clacker";
+	_unit addItemToBackpack "ACE_M26_Clacker";
 	{_unit addItemToBackpack "rhsusf_m112_mag"} count [1,2,3,4,5,6];
 	_unit addItemToBackpack "ACE_DefusalKit";
 	
@@ -77,7 +77,7 @@ else
 	
 	// Backpack
 	_unit addBackpack "rhsusf_falconii_coy";
-	_unit addItemToBackpack "ACE_Clacker";
+	_unit addItemToBackpack "ACE_M26_Clacker";
 	{_unit addItemToBackpack "rhsusf_m112_mag"} count [1,2,3,4,5,6];
 	_unit addItemToBackpack "ACE_DefusalKit";
 	

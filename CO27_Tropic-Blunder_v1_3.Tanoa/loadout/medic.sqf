@@ -55,6 +55,7 @@ _unit addItemToBackpack "ACE_NVG_Gen4";
 
 {_unit addItemToBackpack "ACE_salineIV_250"} count [1,2,3,4];
 {_unit addItemToBackpack "ACE_bloodIV_500"} count [1,2,3,4];
+{_unit addItemToBackpack "ACE_bloodIV"} count [1,2,3,4];
 
 {_unit addItemToBackpack "ACE_splint"} count [1,2];
 {_unit addItemToBackpack "ACE_tourniquet"} count [1,2];

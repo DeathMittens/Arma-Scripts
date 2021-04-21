@@ -27,11 +27,6 @@ _crate addWeaponCargoGlobal ["rhs_weap_M136", 2];
 _crate addWeaponCargoGlobal ["rhs_weap_m72a7", 2];
 
 
-/*
-_crate addMagazineCargoGlobal ["rhs_30Rnd_545x39_AK", 20];
-_crate addMagazineCargoGlobal ["rhs_100Rnd_762x54mmR", 6];
-_crate addMagazineCargoGlobal ["rhs_rpg7_PG7VL_mag", 6];
-*/
 
 _crate addMagazineCargoGlobal ["DemoCharge_Remote_Mag", 6];
 _crate addItemCargoGlobal ["ACE_Clacker", 2];
@@ -40,6 +35,14 @@ _crate addItemCargoGlobal ["ACRE_148", 4];
 _crate addItemCargoGlobal ["ACRE_PRC117F", 2];
 
 _crate addItemCargoGlobal ["ACE_NVG_Gen4", 4];
+
+_crate additemcargoGlobal ["ToolKit",1];
+
+/*
+_crate addMagazineCargoGlobal ["rhs_30Rnd_545x39_AK", 20];
+_crate addMagazineCargoGlobal ["rhs_100Rnd_762x54mmR", 6];
+_crate addMagazineCargoGlobal ["rhs_rpg7_PG7VL_mag", 6];
+*/
 
 
 /*
@@ -60,7 +63,6 @@ _crate addBackpackCargoGlobal ["B_AssaultPack_tna_F",1];
 
 //_crate addWeaponCargoGlobal ["rhs_weap_rpg26",2];
 
-_crate additemcargoGlobal ["ToolKit",1];
 
 //_crate addBackpackCargoGlobal ["tf_rt1523g", 1];
 //_crate addItemCargoGlobal ["ACRE_PRC148", 1];

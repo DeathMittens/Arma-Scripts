@@ -45,11 +45,12 @@ if (groupID (group _unit) == "Charlie" || groupID (group _unit) == "Delta") then
 	_unit addItemToBackpack "rhs_mag_m18_red";
 	_unit addItemToBackpack "rhs_mag_m18_green";
 	
-	{_unit addItemToBackpack "ACE_fieldDressing"} count [1,2,3,4,5,6,7,8];
+	{_unit addItemToBackpack "ACE_fieldDressing"} count [1,2,3,4,5,6,7,8,9,10];
 	{_unit addItemToBackpack "ACE_packingBandage"} count [1,2,3,4,5,6,7,8];
 
 	{_unit addItemToBackpack "ACE_salineIV_250"} count [1,2,3,4];
-	{_unit addItemToBackpack "ACE_bloodIV_500"} count [1,2,3,4];
+	{_unit addItemToBackpack "ACE_bloodIV_500"} count [1,2,3,4,5,6];
+	{_unit addItemToBackpack "ACE_bloodIV"} count [1,2,3,4];
 
 	{_unit addItemToBackpack "ACE_splint"} count [1,2];
 	{_unit addItemToBackpack "ACE_tourniquet"} count [1,2];
@@ -65,7 +66,7 @@ else
 	_unit addWeapon "rhs_weap_m27iar_grip3";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
 
-	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
+	_unit addHeadgear "rhsusf_opscore_ut_pelt_nsw_cam"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_corpsman"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman
 	{_unit linkItem _x} forEach ["ItemMap","ItemCompass","ItemWatch"];
 
@@ -87,18 +88,23 @@ else
 	_unit addItemToBackpack "rhs_mag_m18_red";
 	_unit addItemToBackpack "rhs_mag_m18_green";
 	
-	{_unit addItemToBackpack "ACE_fieldDressing"} count [1,2,3,4,5,6,7,8];
+	{_unit addItemToBackpack "ACE_fieldDressing"} count [1,2,3,4,5,6,7,8,9,10];
 	{_unit addItemToBackpack "ACE_packingBandage"} count [1,2,3,4,5,6,7,8];
 
 	{_unit addItemToBackpack "ACE_salineIV_250"} count [1,2,3,4];
 	{_unit addItemToBackpack "ACE_bloodIV_500"} count [1,2,3,4];
-
+	{_unit addItemToBackpack "ACE_bloodIV"} count [1,2,3,4];
+	
 	{_unit addItemToBackpack "ACE_splint"} count [1,2];
 	{_unit addItemToBackpack "ACE_tourniquet"} count [1,2];
 
 	{_unit addItemToBackpack "ACE_morphine"} count [1,2,3,4,5,6,7,8];
 	{_unit addItemToBackpack "ACE_epinephrine"} count [1,2,3,4,5,6,7,8];
 	
+};
+
+if (groupID (group _unit) == "Command") then {
+	_unit addHeadgear "rhsusf_opscore_paint_pelt_nsw_cam"; // Change to unique headgear
 };
 
 

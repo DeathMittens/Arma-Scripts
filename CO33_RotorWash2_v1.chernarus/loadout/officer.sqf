@@ -17,7 +17,7 @@ _unit forceAddUniform "rhs_uniform_FROG01_wd";
 
 
 // ALPHA / BRAVO GEAR
-_unit addMagazine "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+_unit addMagazine "rhs_mag_30Rnd_556x45_M855_Stanag";
 _unit addWeapon "rhs_weap_m27iar_grip3";
 _unit addPrimaryWeaponItem "optic_Arco_blk_F";
 _unit addMagazine "rhsusf_mag_7x45acp_MHP";

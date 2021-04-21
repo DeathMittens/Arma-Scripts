@@ -19,15 +19,15 @@ sleep 5;
 //fun = ["z3",[3333,1,2],[2,3,16,8],[2,2,16,8],[4,1,16,8],[],[0,7,0,0]] spawn DAC_Zone; // tanks
 
 // Factory SCUD Zones
-fun = ["z11",[11,1,2],[2,3,16,8],[1,2,8,8],[2,1,16,8],[],[0,6,0,0]] spawn DAC_Zone; // NW - 2x BMP & Technicals
+fun = ["z11",[11,1,2],[1,3,8,8],[1,2,8,8],[2,1,16,8],[],[0,6,0,0]] spawn DAC_Zone; // NW - 2x BMP & Technicals
 fun = ["z22",[22,1,2],[2,3,16,8],[],[1,1,8,8],[],[0,5,0,0]] spawn DAC_Zone; // South - BTR
 fun = ["z33",[33,1,2],[2,3,16,8],[],[],[],[0,5,0,0]] spawn DAC_Zone; // NE
 fun = ["z44",[44,1,2],[1,3,8,8],[],[],[],[0,5,0,0]] spawn DAC_Zone; // SE Town
 
 // Elektro - HVT
 fun = ["y11",[111,1,2],[2,3,16,8],[2,2,16,8],[1,1,8,8],[],[0,6,0,0]] spawn DAC_Zone; // NW Field - IFV
-fun = ["y22",[222,1,2],[2,3,16,8],[],[1,1,8,8],[],[0,7,0,0]] spawn DAC_Zone; // SW - Tank
-fun = ["y33",[333,1,2],[2,3,16,8],[],[1,1,8,8],[],[0,5,0,0]] spawn DAC_Zone; // NE - APC????
+fun = ["y22",[222,1,2],[1,3,8,8],[],[1,1,8,8],[],[0,7,0,0]] spawn DAC_Zone; // SW - Tank
+fun = ["y33",[333,1,2],[1,3,8,8],[],[1,1,8,8],[],[0,5,0,0]] spawn DAC_Zone; // NE - APC????
 fun = ["y44",[444,1,2],[2,3,16,8],[],[],[],[0,6,0,0]] spawn DAC_Zone; // Town-Middle
 
 // Tulga - Arty

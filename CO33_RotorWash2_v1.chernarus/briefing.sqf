@@ -9,7 +9,8 @@ player createDiaryRecord ["Diary", ["ACE Medical Settings", "
 Other Mission Settings:<br/>
  - Disabled ACE Hearing<br/>
  - ACRE2 Terrain loss coefficient reduced<br/>
- - Disabled ACE Fatigue
+ - Disabled ACE Fatigue<br/>
+Any feedback on mission ACE Addon settings is appreciated.<br/>
  
 "]];
 /////////////////
@@ -19,9 +20,11 @@ Meta Mission Notes:<br/>
  - Logged admin or zues can force respawn all players using the 'Respawn All Players' custom a3g Zeus module or by executing the following: execVM ''forceRespawn''.sqf; <br/>
  - Starting Radio channels are set via script for Short range ANPRC343 <br/>
  - No mission end trigger: Manually end the mission once completed. <br/>
+ - The medical tent will fully heal all ace wounds of anyone inside it. <br/>
  - If you fall off the deck of the carrier, an action is available on the boats on each side to teleport back on board.<br/>
  - Squad and Team leaders have Cable-Ties for the VIP and Capture objectives.<br/>
- - The Missile Systems may shoot off their missiles due to ACE cookoffs. Detonate explosive charges at a safe distance and out of line of sight.<br/>
+ - Each destroy objective is destructable by a single demolitions charge.<br/>
+ - The Missile Systems may shoot off their missiles on destruction due to ACE cookoffs. Detonate explosive charges at distance (such as on objective extraction) and out of direct line of sight.<br/>
  
 "]];
 /////////////////
@@ -32,7 +35,7 @@ Radio Channels:<br/>
 Short Range AN/PRC-343:<br/>
  - Alpha Squad - SR preset Ch.1<br/>
  - Bravo Squad - SR preset Ch.2<br/>
- - Charlie Squad - SR preset Ch.2<br/>
+ - Charlie Squad - SR preset Ch.3<br/>
  - Command Team - SR preset Ch.4 / LR Ch.1<br/>
 <br/>
 
@@ -80,7 +83,7 @@ These threats are mostly ZU-23 weapon systems and should be avoided if possible.
 // Task 1 - Elektro
 task1 = player createSimpleTask ["Elektrozavodsk: ChDKZ HQ"]; //hqObj
 task1 setSimpleTaskDescription ["
-The ChDKZ rebels are using the Police station and Administrative building in Elektrozavodsk as their command headquarters on the southern Chernarus coast, strike and disrupt the ChDKZ leadership in the region by clearing out the HQ.<br/>
+The ChDKZ rebels are using the Police station and Administrative building in Elektrozavodsk as their regional command headquarters on the southern Chernarus coast, strike at the ChDKZ leadership in the region by clearing out the HQ.<br/>
 <br/>
 This will disrupt the ability of ChDKZ forces to coordinate and react to the Marine naval landing and battle for Chernogorsk.<br/>
 ","Elektrozavodsk: ChDKZ HQ","ChDKZ HQ"];
@@ -90,13 +93,15 @@ task0 = player createSimpleTask ["Elektrozavodsk: VIP"]; //hqVIPObj
 task0 setSimpleTaskDescription ["
 A Chernarussian VIP is being held captive at the ChDKZ headquarters in Elektrozavodsk. Secure the VIP and extract them back to the USS Khe Sanh.<br/>
 <br/>
-Note: Squad and Team leaders carry handcuffs to secure and move the VIP<br/>
+Note: Squad and Team leaders carry handcuffs to secure and move the VIP.<br/>
 ","Elektrozavodsk: VIP","VIP"];
 
 // Task 2 - Arty
 task2 = player createSimpleTask ["Tulga: Artillery Battery"]; //artyObj
 task2 setSimpleTaskDescription ["
-An ChDKZ Artillery battery of three 2S1 Gvozdika 122mm self propelled howitzers is stationed in Tulga and firing upon Chernarus Defence Forces in Chernogorsk, eliminate the artillery battery to relieve pressure on our forces fighting over the city.<br/>
+A ChDKZ Artillery battery of three 2S1 Gvozdika 122mm self propelled howitzers is stationed in Tulga and firing upon Chernarus Defence Forces in Chernogorsk.<br/>
+<br/>
+Eliminate the artillery battery to relieve pressure on our forces fighting over the city.<br/>
 
 ","Tulga: Artillery Battery","Artillery Battery"];
 
