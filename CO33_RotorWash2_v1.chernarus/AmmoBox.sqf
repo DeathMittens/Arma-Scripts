@@ -21,11 +21,14 @@ _crate addItemCargoGlobal ["ACE_personalAidKit", 4];
 _crate addMagazineCargoGlobal ["rhsusf_m112_mag", 4];
 _crate addItemCargoGlobal ["ACE_Clacker", 2];
 
-_crate addItemCargoGlobal ["ACRE_PRC148", 2];
+_crate addItemCargoGlobal ["ACRE_PRC148", 4];
 _crate addItemCargoGlobal ["ACRE_PRC117F", 2];
+
+_crate addBackpackCargoGlobal ["rhsusf_falconii_coy", 2];
 
 _crate addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag", 50];
 _crate addMagazineCargoGlobal ["rhsusf_50Rnd_762x51", 10];
+_crate addMagazineCargoGlobal ["rhsusf_100Rnd_762x51", 4];
 _crate addMagazineCargoGlobal ["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch", 10];
 _crate addMagazineCargoGlobal ["rhs_mag_M441_HE", 10];
 _crate addMagazineCargoGlobal ["rhs_mag_smaw_SR", 4];

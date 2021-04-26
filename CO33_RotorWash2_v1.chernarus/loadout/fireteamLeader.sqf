@@ -22,7 +22,7 @@ if (groupID (group _unit) == "Charlie" || groupID (group _unit) == "Delta") then
 	_unit addMagazine "rhs_mag_30Rnd_556x45_M855_Stanag";
 	_unit addMagazine "rhs_mag_M441_HE";
 	_unit addWeapon "rhs_weap_m4_carryhandle_m203S";
-	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+	_unit addPrimaryWeaponItem "optic_Arco_blk_F";
 	
 	_unit addWeapon "ACE_Vector";
 

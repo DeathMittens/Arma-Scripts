@@ -23,6 +23,8 @@ if (groupID (group _unit) == "Charlie" || groupID (group _unit) == "Delta") then
 	_unit addMagazine "rhs_mag_M441_HE";
 	_unit addWeapon "rhs_weap_m4_carryhandle_m203";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+	
+	_unit addWeapon "Binocular";
 
 	_unit addHeadgear "rhsusf_mich_helmet_marpatwd_headset"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_teamleader"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman
@@ -59,6 +61,8 @@ else
 	_unit addMagazine "rhs_mag_M441_HE";
 	_unit addWeapon "rhs_weap_m4a1_carryhandle_m203";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+	
+	_unit addWeapon "Binocular";
 
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_teamleader"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman

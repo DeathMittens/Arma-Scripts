@@ -54,7 +54,9 @@ else
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
 	
 	_unit addWeapon "rhs_weap_M136";
-
+	
+	_unit addWeapon "Binocular";	
+	
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_rifleman"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman
 	{_unit linkItem _x} forEach ["ItemMap","ItemCompass","ItemWatch"];

@@ -93,5 +93,5 @@ else
 // radios
 sleep 1;
 _unit addItem "ACRE_PRC343";
-_unit additem "ACRE_PRC148";
+//_unit additem "ACRE_PRC148";
 _unit additem "ACRE_PRC117F";

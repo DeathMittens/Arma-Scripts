@@ -8,6 +8,7 @@ To Do List / Notes:
 		- Half ACRE2 terrain loss - currently 0.3?
 		- ACE artillery - arty computer disabled
 		- ACE pylons not requiring toolkits
+		- Reduced overpressure range coefficient due to RHS LAT hurting the shooter too easily
 		
 	TO DO:
 		- Reconsider AO ZU-23 placements - too OP for inf?

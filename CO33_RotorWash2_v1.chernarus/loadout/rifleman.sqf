@@ -50,6 +50,8 @@ else
 	_unit addMagazine "rhs_mag_30Rnd_556x45_M855_Stanag";
 	_unit addWeapon "rhs_weap_m27iar_grip3";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
+	
+	_unit addWeapon "Binocular";
 
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_rifleman"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman

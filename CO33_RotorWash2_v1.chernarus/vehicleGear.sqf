@@ -26,7 +26,8 @@ _crate addItemCargoGlobal ["ACRE_PRC148", 1];
 _crate addItemCargoGlobal ["ACRE_PRC117F", 1];
 
 _crate addMagazineCargoGlobal ["rhs_mag_30Rnd_556x45_M855A1_Stanag", 20];
-_crate addMagazineCargoGlobal ["rhsusf_50Rnd_762x51", 6];
+_crate addMagazineCargoGlobal ["rhsusf_50Rnd_762x51", 4];
+_crate addMagazineCargoGlobal ["rhsusf_100Rnd_762x51", 2];
 _crate addMagazineCargoGlobal ["rhsusf_100Rnd_556x45_M855_mixed_soft_pouch", 4];
 _crate addMagazineCargoGlobal ["rhs_mag_M441_HE", 8];
 _crate addMagazineCargoGlobal ["rhs_mag_smaw_SR", 1];

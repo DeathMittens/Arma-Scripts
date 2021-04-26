@@ -22,6 +22,7 @@ _unit addWeapon "rhs_weap_m4_carryhandle";
 _unit addMagazine "rhsusf_mag_7x45acp_MHP";
 _unit addWeapon "rhsusf_weap_m1911a1";
 
+_unit addWeapon "Binocular";
 
 _unit addHeadgear "rhsusf_hgu56p";
 _unit addVest "rhsusf_spc_crewman";

@@ -55,6 +55,8 @@ else
 	
 	_unit addMagazine "rhsusf_mag_7x45acp_MHP";
 	_unit addWeapon "rhsusf_weap_m1911a1";
+	
+	_unit addWeapon "Binocular";	
 
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_plateframe_machinegunner"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman

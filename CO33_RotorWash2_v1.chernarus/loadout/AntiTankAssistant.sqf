@@ -25,6 +25,8 @@ if (groupID (group _unit) == "Charlie" || groupID (group _unit) == "Delta") then
 	_unit addWeapon "rhs_weap_m4_carryhandle_grip3";
 	_unit addPrimaryWeaponItem "rhsusf_acc_compm4";
 	
+	_unit addWeapon "ACE_Vector";
+	
 	_unit addWeapon "rhs_weap_M136";
 
 	_unit addHeadgear "rhsusf_mich_helmet_marpatwd_headset"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt

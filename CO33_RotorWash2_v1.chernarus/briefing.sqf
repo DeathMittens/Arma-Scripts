@@ -26,6 +26,17 @@ Meta Mission Notes:<br/>
  - Each destroy objective is destructable by a single demolitions charge.<br/>
  - The Missile Systems may shoot off their missiles on destruction due to ACE cookoffs. Detonate explosive charges at distance (such as on objective extraction) and out of direct line of sight.<br/>
  
+ <br/>
+ All Intel images:
+ <br/>Elektrozavodsk HQ:<br/>
+ <img image='briefing\hq-top.jpg' width='300' height='200'/>
+ <br/>Tulga:<br/>
+ <img image='briefing\arty-top.jpg' width='300' height='200'/>
+ <br/>Factory:<br/>
+ <img image='briefing\factory-top.jpg' width='300' height='200'/>
+
+ <br/>
+ 
 "]];
 /////////////////
 
@@ -72,7 +83,7 @@ Read the tasks for further information.<br/>
 <br/>
 Threats:<br/>
  - The ChDKZ are operating several BTRs, BMPs and T-72 MBTs in limited numbers.<br/>
-You can expected to encounter ChDKZ armor in Elektrozavodks and near the Polana Factory.<br/>
+You can expected to encounter ChDKZ armor in Elektrozavodsk and near the Polana Factory.<br/>
  - Anti-Air threats are scattered throughout enemy territory, known threats outside the primary objective areas have been marked on the map.<br/>
 These threats are mostly ZU-23 weapon systems and should be avoided if possible.<br/>
  - There are manned anti-aircraft systems at the Polana Factory and Tulga, infantry will need to eliminate these threats before calling in fire-support from the Venom pilots.<br/>
@@ -86,6 +97,10 @@ task1 setSimpleTaskDescription ["
 The ChDKZ rebels are using the Police station and Administrative building in Elektrozavodsk as their regional command headquarters on the southern Chernarus coast, strike at the ChDKZ leadership in the region by clearing out the HQ.<br/>
 <br/>
 This will disrupt the ability of ChDKZ forces to coordinate and react to the Marine naval landing and battle for Chernogorsk.<br/>
+<br/>
+Known threats: T-72 and BMP/BTRs<br/>
+<br/>
+<img image='briefing\hq-top.jpg' width='300' height='200'/>
 ","Elektrozavodsk: ChDKZ HQ","ChDKZ HQ"];
 
 // Task 1 - Elektro
@@ -94,6 +109,10 @@ task0 setSimpleTaskDescription ["
 A Chernarussian VIP is being held captive at the ChDKZ headquarters in Elektrozavodsk. Secure the VIP and extract them back to the USS Khe Sanh.<br/>
 <br/>
 Note: Squad and Team leaders carry handcuffs to secure and move the VIP.<br/>
+<br/>
+Known threats: T-72 and BMP/BTRs<br/>
+<br/>
+<img image='briefing\hq-top.jpg' width='300' height='200'/>
 ","Elektrozavodsk: VIP","VIP"];
 
 // Task 2 - Arty
@@ -102,7 +121,10 @@ task2 setSimpleTaskDescription ["
 A ChDKZ Artillery battery of three 2S1 Gvozdika 122mm self propelled howitzers is stationed in Tulga and firing upon Chernarus Defence Forces in Chernogorsk.<br/>
 <br/>
 Eliminate the artillery battery to relieve pressure on our forces fighting over the city.<br/>
-
+<br/>
+Known threats: Ant-aircraft emplacements (IGLA, DShKM), BTR/BRDMs.<br/>
+<br/>
+<img image='briefing\arty-top.jpg' width='300' height='200'/>
 ","Tulga: Artillery Battery","Artillery Battery"];
 
 // Task 3 - SCUD
@@ -112,6 +134,10 @@ Forward reconnaissance elements have identified two OTR-21 Tochka (NATO reportin
 Locate and destory the missile systems before they can be fired on the Marine amphibious landing force.<br/>
 <br/>
 Note: Destruction of the missile system may result in a significant secondary detonation. Detonate demolition charges well clear of the missile system, at a distance of at least 100 meters.<br/>
+<br/>
+Known threats: Ant-aircraft emplacements (IGLA, ZU-23), BMP/BTRs.<br/>
+<br/>
+<img image='briefing\factory-top.jpg' width='300' height='200'/>
 ","Factory: SS-21 Scarab","SS-21 Scarab"];
 
 // Task 3 - SCUD
@@ -121,6 +147,10 @@ Forward reconnaissance elements spotted an officer believed to be in command of 
 Capture and extract the missile systems officer to the USS Khe Sanh.<br/>
 <br/>
 Note: Squad and Team leaders carry handcuffs to secure and move the HVT<br/>
+<br/>
+Known threats: Ant-aircraft emplacements (IGLA, ZU-23), BMP/BTRs.<br/>
+<br/>
+<img image='briefing\factory-top.jpg' width='300' height='200'/>
 ","Factory: Missile Systems Officer","Missile Systems Officer"];
 
 

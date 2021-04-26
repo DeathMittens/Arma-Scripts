@@ -140,6 +140,7 @@ _Spawn_Loadout = {
 	//_unit addHeadgear selectRandom ["H_ShemagOpen_tan", "H_Shemag_olive", "H_ShemagOpen_khk", "H_Bandanna_gry"];
 	//_unit setSpeaker selectRandom ["Male01PER", "Male02PER", "Male03PER"];
 	_unit setSkill 0.3;
+	_unit setSkill ["aimingaccuracy", 0.2];
 };
 
 // Sort By Height - Appears to favour higher positions if True?

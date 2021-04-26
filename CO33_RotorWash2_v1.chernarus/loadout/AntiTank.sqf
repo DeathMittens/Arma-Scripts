@@ -63,6 +63,8 @@ else
 	_unit addMagazine "rhs_mag_smaw_SR";
 	_unit addWeapon "rhs_weap_smaw";
 	_unit addSecondaryWeaponItem "rhs_weap_optic_smaw";
+	
+	_unit addWeapon "Binocular";
 
 	_unit addHeadgear "rhsusf_opscore_ut_pelt"; // alt - rhsusf_mich_helmet_marpatwd_headset / rhsusf_opscore_ut_pelt
 	_unit addVest "rhsusf_spc_rifleman"; // alt - rhsusf_plateframe_rifleman / rhsusf_spc_rifleman
