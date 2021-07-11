@@ -1,0 +1,44 @@
+To Do List / Notes:
+
+ToDo:
+
+
+
+
+
+
+
+
+
+	- Loadouts
+	- C130 setup
+	- Extra scripting for drop zones
+	- Respawn locations
+	- Finish Briefings
+	- Finish CBA Settings
+
+	- debug messages on para triggers
+	- drop lights not working - make local
+
+ACE Settings:
+	- Artillery Computer disabled
+	- Ace Fatigue - Disabled
+	- ACE hearing - Disabled
+	- ACE Vehicle Lock - As Is
+
+
+Loadouts/squad
+
+SL
+	AT Rifleman
+	Auto Rifleman
+FTL
+	AT Rifleman
+	medic
+
+
+(group this) setGroupId ["Alpha"];
+_id = ["RED", this] execVM "Teams.sqf";
+_id = ["GREEN", this] execVM "Teams.sqf";
+ 
+ 
